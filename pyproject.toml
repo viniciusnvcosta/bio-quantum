@@ -6,7 +6,12 @@ readme = "README.md"
 requires-python = ">=3.11.13"
 dependencies = [
     "ipykernel>=7.2.0",
+    "matplotlib>=3.10.8",
+    "networkx>=3.6.1",
     "numpy>=2.4.2",
     "pandas>=3.0.1",
     "pennylane>=0.44.0",
+    "pennylane-lightning>=0.44.0",
+    "pennylane-lightning-gpu>=0.44.0",
+    "torch>=2.7.1",
 ]
